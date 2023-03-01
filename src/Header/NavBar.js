@@ -14,9 +14,9 @@ function NavBar() {
                     <li><a href='#Library'>Library</a></li>
                 </ul>
             </div>
-            <div>
+            <div className='btn__container'>
                 <a href='#Sign-In'>Sign In</a>
-                <button>Sign Up</button>
+                <button className='signup__btn'>Sign Up</button>
             </div>
         </div>
     )
