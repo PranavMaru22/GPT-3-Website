@@ -4,6 +4,8 @@ import Future from "./Future/Future";
 import Header from "./Header/Header"
 import WhatIsGPT from "./WhatIsGPT/WhatIsGPT";
 import Possibility from "./Possibillty/Possibility"
+import Blogs from "./Blogs/Blogs";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <WhatIsGPT />
       <Future />
       <Possibility />
+      <Blogs />
+      <Footer />
     </div>
   );
 }
