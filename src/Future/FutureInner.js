@@ -4,7 +4,7 @@ import "./FutureInner.css"
 function FutureInner({heading,content}) {
     return (
         <div>
-            <div>
+            <div className='future__inner__container'>
                 <h3>{heading}</h3>
                 <p>{content}</p>
             </div>

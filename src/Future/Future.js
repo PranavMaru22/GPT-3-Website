@@ -4,8 +4,8 @@ import FutureInner from './FutureInner'
 
 function Future() {
     return (
-        <div>
-            <div>
+        <div className='flex__future__container'>
+            <div className='future__container'>
                 <h2>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h2>
                 <p>Request Early Access to Get Started</p>
             </div>

@@ -1,0 +1,24 @@
+.future__inner__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-left: rem; */
+}
+
+.future__inner__container h3 {
+    height: 55px;
+    width: 182px;
+    margin-right: 3rem;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.future__inner__container p {
+    height: 92px;
+    width: 334px;
+    color: #81AFDD;
+}
