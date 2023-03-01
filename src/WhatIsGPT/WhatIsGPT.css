@@ -1,0 +1,12 @@
+.company__logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    margin: 2rem;
+    margin-top: 4rem;
+}

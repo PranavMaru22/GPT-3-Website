@@ -1,0 +1,12 @@
+.header__content__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__image {
+    height: 700px;
+    width: 667px;
+    object-fit: contain;
+}
