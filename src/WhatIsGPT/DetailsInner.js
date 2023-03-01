@@ -1,9 +1,11 @@
 import React from 'react'
+import "./DetailsInner.css"
+
 
 function DetailsInner({heading,content}) {
   return (
     <div>
-        <div>
+        <div className='flex__container'>
             <h2>{heading}</h2>
             <p>{content}</p>
         </div>

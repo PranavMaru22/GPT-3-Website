@@ -1,0 +1,24 @@
+.flex__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-family: "Manrope";
+    margin: 2rem;
+}
+
+.flex__container h2 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+
+}
+
+.flex__container p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #81AFDD;
+}
