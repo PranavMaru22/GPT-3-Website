@@ -5,6 +5,118 @@
     align-items: center;
 }
 
+.header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+}
+
+.header__content h1 {
+    margin-left: 100px;
+    height: 400px;
+    width: 500px;
+    font-family: Manrope;
+    font-size: 50px;
+    font-weight:900;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 13px;
+}
+
+.header__content p {
+
+    height: 227px;
+    width: 550px;
+    padding-left: 150px;
+    margin-top: 3px;
+    font-family: "Manrope";
+    font-size: 20px;
+    opacity: 0.9;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #81AFDD;
+
+}
+
+.mixed__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input__container {
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.input__txt {
+    height: 50px;
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #3D6184;
+    border: none;
+    background: #052D56;
+    outline: none;
+    margin-left: 5rem;
+    padding-left: 1.5rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.start__btn {
+    height: 50px;
+    width: 150px;
+    font-family: "Manrope";
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    background-color: #FF4820;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.people__container {
+    margin: 1rem 1rem 1rem 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.people__container span {
+    margin-left: 5px;
+    font-size:14px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.people__img {
+    height: 38px;
+    width: 180px;
+}
+
 .hero__image {
     height: 700px;
     width: 667px;
