@@ -1,5 +1,123 @@
+.possibility__flex {
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope";
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -8rem;
+}
+
+.possibility__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 607px;
+    width: 1044px;
+}
+
 .possibility__image {
+    margin-left: -2rem;
     height: 607px;
     width: 546px;
     object-fit: contain;
+}
+
+.possibility__content {
+    height: 334px;
+    width: 479px;
+    text-align: left;
+}
+
+.possibility__content h2 {
+    height: 90px;
+    width: 426px;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first__para {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #71E5FF;
+}
+
+.second__para {
+    height: 120px;
+    width: 479px;
+    color: #81AFDD;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.third__para {
+    height: 30px;
+    width: 271px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #FF8A71;
+}
+
+.request__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding:10px;
+    margin-top: 6rem;
+    height: 172px;
+    width: 1170px;
+}
+
+.request__card p {
+    font-size: 12px;
+    margin-left: 2rem;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+
+.request__card h2 {
+    font-size: 24px;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    font-weight: 800;
+    color:#000000;
+    line-height: 45px;
+}
+
+.request__card button {
+    height: 60px;
+    width: 190px;
+    margin-right: 2rem;
+    color: #FFFFFF;
+    background-color:#000000;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 40px;
 }
