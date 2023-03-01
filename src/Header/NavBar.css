@@ -14,6 +14,11 @@
 }
 
 .nav__list li {
-    text-align: left;
+    text-align: center;
     margin: 2rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: dotted;
 }
