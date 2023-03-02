@@ -1,0 +1,130 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #031B34;
+    font-family: "Manrope";
+    height: 900px;
+    width: 100%;
+}
+
+.footer__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    height: 140px;
+    width: 800px;
+
+}
+.footer__heading h1 {
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.request_btn {
+    width: 218px;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor:pointer;
+    border: 1px solid #FFFFFF;
+    padding: 1.5rem;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+}
+
+.footer__logo {
+    height: 85px;
+    width: 168px;
+    height: 30px;
+    width: 118px;
+    color: #FFFFFF;
+}
+
+.footer__logo h2 {
+    font-size: 32px;
+    font-weight:700;
+    margin-bottom: -0.3rem;
+}
+
+.footer__logo p {
+    height: 30px;
+    width: 168px;
+    font-size: 12px;
+}
+
+.footer__list__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    width: 40%;
+}
+
+.footer__list__1 {
+    display: flex;
+    flex-direction: column;
+    height: 191px;
+    width: 72px;
+    margin: 0 2rem 0 0;
+    text-align: left;
+}
+
+.footer__list__1 a {
+    padding: 5px 0;
+    margin: 3px 0;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.footer__list__2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 106px;
+    font-weight: bold;
+}
+
+.footer__list__2 a {
+    padding: 5px 0;
+    margin: 3px 0;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.footer__list__3 {
+    height: 182px;
+    width: 126px;
+
+}
+
+.footer__list__3  p, .footer__list__3 a {
+    padding: 5px 0;
+    margin: 3px 0;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.footer__list__3 a {
+    cursor: pointer;
+}
