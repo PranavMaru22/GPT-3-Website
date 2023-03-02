@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='footer__container'>
       <div className='footer__heading'>
-        <h1>Do you want to step in to the future before others</h1>
+        <h1>Do you want to step into the future before others ?</h1>
         <button className='request_btn'>Request Early Access</button>
       </div>
       <div className='footer__content'>

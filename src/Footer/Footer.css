@@ -25,6 +25,7 @@
     font-weight: 800;
     line-height: 75px;
     letter-spacing: -0.04em;
+    margin-bottom: 3rem;
     text-align: center;
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     -webkit-background-clip: text;
@@ -72,7 +73,8 @@
 
 .footer__logo h2 {
     font-size: 32px;
-    font-weight:700;
+    font-weight:800;
+    margin-top: -1rem;
     margin-bottom: -0.3rem;
 }
 
