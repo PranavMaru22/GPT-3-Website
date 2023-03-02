@@ -1,5 +1,38 @@
+.blog__card {
+    font-family: "Manrope";
+}
 .individual__pic {
-    height: 287px;
-    width: 317px;
+    height: 50%;
+    width: 100%;
     object-fit: contain;
+    margin-bottom: -0.3rem;
+    border-top-right-radius: 12px;
+}
+
+.blog__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0rem 1rem;
+    background-color: #042C54;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.blog__content span {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top: 8px;
+}
+
+.blog__content h3 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.blog__content h4 {
+    font-size: 14px;
 }
