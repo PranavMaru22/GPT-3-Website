@@ -11,7 +11,7 @@ const BLOG05 = require("../gpt-3 assets/blog05.png")
 function Blogs() {
     return (
         <div className='blogs__flex'>
-            <h1>A lot is happening, We are blogging about it.</h1>
+            <h1 className='blogs__heading'>A lot is happening, We are blogging about it.</h1>
             <div className='blogs__container'>
                 <div className='item-1'>
                     <Blog 

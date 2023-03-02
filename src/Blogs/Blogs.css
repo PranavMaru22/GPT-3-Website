@@ -5,6 +5,24 @@
     padding: 2rem 0;
 }
 
+.blogs__heading {
+    font-family: "Manrope";
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 62px;
+    margin-left: 12rem;
+    letter-spacing: -0.04em;
+    text-align: left;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 150px;
+    width: 600px;
+    margin-bottom: -3rem;
+}
+
 .blogs__container {
     height: 600px;
     width: 1070px;
