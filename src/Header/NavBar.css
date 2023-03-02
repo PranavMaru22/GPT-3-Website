@@ -63,3 +63,9 @@ a {
     border-radius: 5px;
     margin: 1rem;
 }
+
+.signup__btn:hover {
+    cursor: pointer;
+    transition:all 0.5s;
+    transform: scale(0.93);
+}

@@ -6,6 +6,7 @@ function DetailsInner({heading,content}) {
   return (
     <div>
         <div className='flex__container'>
+          <div className='linear__border'></div>
             <h2>{heading}</h2>
             <p>{content}</p>
         </div>
